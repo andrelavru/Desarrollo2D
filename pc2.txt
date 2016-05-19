@@ -1,0 +1,63 @@
+﻿1. Cuál es la función para detectar si el click derecho ha sido presionado?
+GetMouseButtonDown
+
+2. 
+
+Arreglar el sgte bloque de código
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class DeAToby:MonoBehaviour
+
+{
+	
+	List<GameObject> enemys;
+
+	void start(){
+		enemys = new List<GameObject>();
+		
+		create ();
+	}
+
+	void create(){
+		print(enemys.Count);
+	}
+}
+
+
+3. Time.deltaTime da el tiempo en:
+frames por segundo
+
+4. Quiero guardar un String dentro de PlayerPrefs con el nombre "soycandyyque"
+PlayerPrefs.SetString("soycandyyque", "string");
+
+5. Quiero obtener el valor del PlayerPrefs "soycandyyque"
+PlayerPrefs.GetString("soycandyyque", "string");
+
+6. transform.position es un vector ?
+Vector3
+
+7. Si quiero crear un piso resbaloso que propiedad debo darle al material?
+friccion
+
+
+8. Quiero que el Rigidbody2D sea kinemático:
+
+	Check en Is Kinematic
+	En script GetComponent<Rigidbody2D>().isKinematic = true;
+	Las dos son correctas(x)
+	Add component KinematicRigidBody
+
+9. Cuál es la correcta?
+
+	GameObject.Find("MeAchuto").GetComponent<Button>().onClick.AddListener (()=>papi());(x)
+	GameObject.find("MeAchuto").GetComponent<Button>().onClick.AddListener (()=>papi());
+	gameObject.Find("MeAchuto").GetComponent<Button>().addEventListener(MouseEvent.CLICK,papi);
+	GameObject("MeAchuto").add.onInputDown(papi,this);
+	gameObject.Find("MeAchuto").GetComponent<Button>().onClick.AddListener (()=>papi());
+
+10. Para detener el Tiempo es ?
+	Time.timeScale = 0;(x)
+	Time.stop = true;
+	Time.stop();

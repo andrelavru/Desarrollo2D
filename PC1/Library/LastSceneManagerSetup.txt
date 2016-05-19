@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/scenes/Dificultad.unity
+  isLoaded: 1
+  isActive: 1

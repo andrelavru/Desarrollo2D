@@ -1,0 +1,16 @@
+using UnityEngine
+using System.Collections;
+
+public class CameraMove : MonoBehaviour{
+	
+	Player player;
+	
+	void Start(){
+		current = PlayerPrefs.GetString("color", "green");
+	}
+
+	void Update{
+		
+	}
+
+}

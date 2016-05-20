@@ -15,6 +15,7 @@ public class GoScene : MonoBehaviour {
 
     void goGame()
     {
+        jugar.onClick.RemoveAllListeners();
         SceneManager.LoadScene(escena);
     }
 	
